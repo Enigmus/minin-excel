@@ -1,0 +1,35 @@
+{
+  "name": "minin-excel",
+  "version": "1.0.0",
+  "description": "Excel APP from Minin courses",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enigmus/minin-excel.git"
+  },
+  "keywords": [
+    "js",
+    "jsvascript",
+    "excel"
+  ],
+  "author": "Enigmus <s.e.nigmus@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enigmus/minin-excel/issues"
+  },
+  "homepage": "https://github.com/Enigmus/minin-excel#readme",
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
